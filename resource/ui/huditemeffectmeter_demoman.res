@@ -5,22 +5,43 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c143"
-		"ypos"										"rs1-90"
-		"wide"										"30"
-		"tall"										"20"
+		"xpos"										"rs1"
+		"ypos"										"rs1"
+		"wide"										"50"
+		"tall"										"40"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
+	
+	"SamBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"SamBG"
+		
+		"xpos"										"5"
+		"ypos"										"5"
+		"zpos"										"0"
+		
+		"wide"										"f10"
+		"tall"										"f10"
+		"proportionaltoparent"						"1"
+		
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"bgcolor_override"							"SamBG"
+		"paintbackgroundtype"						"2"
+	}
+	
 	"ItemEffectMeterIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ItemEffectMeterIcon"
-		"xpos"										"0"
+		"xpos"										"cs-0.75-5"
 		"ypos"										"cs-0.5"
 		"zpos"										"7"
-		"wide"										"13"
-		"tall"										"13"
+		"wide"										"18"
+		"tall"										"o1"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -28,28 +49,11 @@
 		"image"										"../vgui/marked_for_death"
 		"drawcolor"									"White"
 	}
-	"ItemEffectMeterIconShadow"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ItemEffectMeterIconShadow"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"6"
-		"wide"										"14"
-		"tall"										"14"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
-		"drawcolor"									"0 0 0 75"
-		"pin_to_sibling"							"ItemEffectMeterIcon"
-	}
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
-		"xpos"										"15"
+		"xpos"										"cs+0.25"
 		"ypos"										"cs-0.5"
 		"zpos"										"2"
 		"wide"										"20"
@@ -59,27 +63,8 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"HudFontMediumSmall"
+		"font"										"HudFontMediumBold" //"HudFontMediumSmall"
 		"FgColor"									"White"
-	}
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterCountShadow"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"21"
-		"tall"										"21"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"%progresscount%"
-		"textAlignment"								"west"
-		"font"										"HudFontMediumSmall"
-		"FgColor"									"0 0 0 130"
-
-		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
 	"ItemEffectMeterLabel"
 	{

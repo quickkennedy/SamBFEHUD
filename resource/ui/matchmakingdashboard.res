@@ -14,7 +14,7 @@
 
 		"collapsed_height"							"0"
 		"expanded_height"							"25"
-		"resize_time"								"0.2"
+		"resize_time"								"0"
 	}
 
 	"TopBar"
@@ -41,7 +41,7 @@
 			"visible"								"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"31 32 33 255"
+			"bgcolor_override"						"35 39 40 255" //"31 32 33 255"
 			"proportionaltoparent"					"1"
 		}
 

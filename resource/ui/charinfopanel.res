@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override"					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"title"										""
 		"title_font"								""
@@ -26,6 +26,26 @@
 
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"0"
+	}
+	
+	"SAMmenuGalaxy"
+	{
+		"ControlName"     							"ImagePanel"
+        "fieldName"       							"SAMmenuGalaxy"
+        
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		
+		"zpos"										"-1"
+		
+		"wide"										"f0"
+		"tall"										"480"
+		
+		"image"										"replay\thumbnails\sam\background"
+		"scaleImage"     							"1"
 	}
 
 	"Sheet"

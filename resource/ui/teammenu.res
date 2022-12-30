@@ -53,7 +53,7 @@
 		"xpos"			  							"cs-0.5"
 		"ypos"			  							"cs-0.5-15"
 		"zpos"			  							"1"
-		"wide"			  							"70"
+		"wide"			  							"35"
 		"tall"			  							"25"
 		"visible"									"1"
 		"enabled"									"1"
@@ -66,6 +66,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
+		"wrap"										"1"
 
 		"paintbackground"							"0"
 
@@ -77,10 +78,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldname"									"BlueShadow"
-		"xpos"			  							"-1"
+		"xpos"			  							"-2"
 		"ypos"			  							"-1"
 		"zpos"			  							"0"
-		"wide"			  							"70"
+		"wide"			  							"35"
 		"tall"			  							"25"
 		"visible"									"1"
 		"enabled"									"1"
@@ -91,6 +92,7 @@
 		"proportionaltoparent"						"1"
 		"FgColor"									"Black"
 		"pin_to_sibling"							"BlueButton"
+		"wrap"										"1"
 	}
 	"BlueShortKey"
 	{

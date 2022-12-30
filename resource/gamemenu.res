@@ -1,5 +1,10 @@
 "Resource/GameMenu.res"
 {
+	"SAMmenubg"
+	{
+		"command"								"engine"
+		"OnlyAtMenu"							"1"
+	}
 	"Servers"
 	{
 		"label"									"servers"

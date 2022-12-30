@@ -11,13 +11,13 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override" 					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"							"Blank" //"46 43 42 255"
+		"infocus_bgcolor_override" 					"Blank" //"46 43 42 255"
+		"outoffocus_bgcolor_override"				"Blank" //"46 43 42 255"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
-		"item_ypos"									"60"
+		"item_ypos"									"80" //
 		"item_ydelta"								"75"
 		"item_mod_wide"								"40"
 
@@ -26,7 +26,7 @@
 		"item_backpack_ydelta"						"3"
 
 		"button_xpos_offcenter"						"175"
-		"button_ypos"								"85"
+		"button_ypos"								"105" //
 		"button_ydelta"								"80"
 		"button_override_delete_xpos" 				"0"
 
@@ -81,13 +81,33 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}
+	
+	"SAMmenuGalaxy"
+	{
+		"ControlName"     							"ImagePanel"
+        "fieldName"       							"SAMmenuGalaxy"
+        
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"xpos"										"cs-0.5"
+		"ypos"										"-17"
+		
+		"zpos"										"-2"
+		
+		"wide"										"f0"
+		"tall"										"480"
+		
+		"image"										"replay\thumbnails\sam\background"
+		"scaleImage"     							"1"
+	}
 
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
 		"xpos"										"c-135"
-		"ypos"										"20"
+		"ypos"										"40" //
 		"zpos"										"-1"
 		"wide"										"270"
 		"tall"										"340"
@@ -187,7 +207,7 @@
 		"fieldName"									"CharacterLoadoutButton"
 		"labelText"									""
 		"xpos"										"c-85"
-		"ypos"										"63"
+		"ypos"										"83" //
 		"zpos"										"90"
 		"wide"										"20"
 		"tall"										"20"
@@ -196,7 +216,7 @@
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"image_drawcolor"							"225 220 220 255"
+		"image_drawcolor"							"White" //"225 220 220 255"
 		"image_armedcolor"							"80 175 115 255"
 
 		"SubImage"
@@ -222,7 +242,7 @@
 		"fieldName"									"TauntLoadoutButton"
 		"labelText"									""
 		"xpos"										"c60"
-		"ypos"										"63"
+		"ypos"										"83" //
 		"zpos"										"90"
 		"wide"										"20"
 		"tall"										"20"
@@ -231,7 +251,7 @@
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"image_drawcolor"							"225 220 220 255"
+		"image_drawcolor"							"White" //"225 220 220 255"
 		"image_armedcolor"							"80 175 115 255"
 
 		"SubImage"

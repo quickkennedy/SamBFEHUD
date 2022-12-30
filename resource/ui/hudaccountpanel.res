@@ -9,10 +9,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
-		"xpos"										"cs-0.5"
-		"ypos"										"c115"
+		"xpos"										"c-35"
+		"ypos"										"r60"
 		"zpos"										"2"
-		"wide"										"100"
+		"wide"										"70"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -21,24 +21,16 @@
 		"textAlignment"								"center"
 		"font"										"HudFontSmallishBold"
 		"fgcolor"   								"White"
+		
+		"bgcolor_override"							"0 16 39 200"
+		
+		"paintbackgroundtype"						"2"
 	}
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"101"
-		"tall"										"21"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"%metal%"
-		"textAlignment"								"center"
-		"font"										"HudFontSmallishBold"
-		"fgcolor"   								"0 0 0 130"
-		"pin_to_sibling"   							"AccountValue"
+		"xpos"										"99999"
 	}
 
 

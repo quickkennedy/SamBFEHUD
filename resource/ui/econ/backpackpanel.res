@@ -11,9 +11,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override" 					"46 43 42 255"
-		"outoffocus_bgcolor_override" 				"46 43 42 255"
+		"bgcolor_override"							"SamMenuBG"
+		"infocus_bgcolor_override" 					"SamMenuBG"
+		"outoffocus_bgcolor_override" 				"SamMenuBG"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -141,6 +141,26 @@
 
 			"use_item_sounds"						"1"
 		}
+	}
+	
+	"SAMmenuGalaxy"
+	{
+		"ControlName"     							"ImagePanel"
+        "fieldName"       							"SAMmenuGalaxy"
+        
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"xpos"										"cs-0.5"
+		"ypos"										"-17"
+		
+		"zpos"										"-1"
+		
+		"wide"										"f0"
+		"tall"										"480"
+		
+		"image"										"replay\thumbnails\sam\background"
+		"scaleImage"     							"1"
 	}
 
 	"tool_icon"

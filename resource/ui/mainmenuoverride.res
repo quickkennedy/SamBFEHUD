@@ -67,6 +67,26 @@
 		"wide"										"f0"
 		"tall"										"480"
 		
+		"fillcolor"									"SamMenuBG"
+		"scaleImage"     							"1"
+	}
+	
+	"SAMmenuGalaxy"
+	{
+		"ControlName"     							"ImagePanel"
+        "fieldName"       							"SAMmenuGalaxy"
+        
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		
+		"zpos"										"0"
+		
+		"wide"										"f0"
+		"tall"										"480"
+		
 		"image"										"replay\thumbnails\sam\background"
 		"scaleImage"     							"1"
 	}
