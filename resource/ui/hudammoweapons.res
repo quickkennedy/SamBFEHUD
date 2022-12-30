@@ -35,25 +35,23 @@
 		
 		"SamIcon"
 		{
-			"ControlName"	           				 	"CExLabel"
-			"fieldName"	  	         				 	"SamIcon"
+			"ControlName"     							"ImagePanel"
+			"fieldName"       							"SAMcross"
 			
-			"xpos"		    	         				"10"
-			"ypos"		    	         				"5"
-			"zpos"		    	         				"5"
+			"visible"									"1"
+			"enabled"									"1"
 			
-			"wide"		    	         				"f10"
-			"tall"		    	         				"f10"
+			"xpos"										"s0.35" // works well for no particular reason
+			"ypos"										"cs-0.5"
+			
+			"zpos"										"5"
+			
+			"wide"										"o1"
+			"tall"										"f15"
 			"proportionaltoparent"						"1"
 			
-			"visible"		  	         				"1"
-			"enabled"	  		         				"1"
-			
-			"labelText" 		         				"IIII"
-			"textAlignment"         				 	"west"
-			"font"                   				 	"HudFontBiggerBold"
-			
-			"fgcolor"	    	         				"White"
+			"image"										"replay\thumbnails\sam\ammo"
+			"scaleImage"     							"1"
 		}
 	}
 	
