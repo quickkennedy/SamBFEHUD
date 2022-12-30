@@ -39,7 +39,7 @@
 		"BrightYellow"										"235 235 50 255"
 		"GreenSolid"		 								"80 175 115 255"
 		
-		"SamBG"												"0 16 39 255"
+		"SamBG"												"0 16 39 200"
 
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 200"

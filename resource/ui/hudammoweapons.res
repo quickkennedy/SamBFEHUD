@@ -30,7 +30,6 @@
 			
 			"bgcolor_override"							"SamBG"
 			"paintbackgroundtype"						"2"
-			"alpha"										"200"
 		}
 		
 		"SamIcon"
@@ -144,7 +143,6 @@
 		
 		"bgcolor_override"							"SamBG"
 		"paintbackgroundtype"						"2"
-		"alpha"										"200"
 		
 		"labelText"									""
 

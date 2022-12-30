@@ -10,6 +10,8 @@
 		"ypos"										"rs1-45"
 		"wide"										"260"
 		"tall"										"120"
+		
+		"bgcolor_override"							"0 16 39 255"
 		"PaintBackgroundType"						"2"
 	}
 	"ChatInputLine"

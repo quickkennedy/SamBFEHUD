@@ -30,7 +30,6 @@
 			
 		"bgcolor_override"							"SamBG"
 		"paintbackgroundtype"						"2"
-		"alpha"										"200"
 	}
 	
 	"ItemEffectMeter"
