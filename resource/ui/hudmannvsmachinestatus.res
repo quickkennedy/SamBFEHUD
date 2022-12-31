@@ -50,7 +50,7 @@
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"c-95"
 		"ypos"				"rs1-35"
-		"wide"				"60"
+		"wide"				"0" //"60" // DISABLED AS OF 12/30/2022
 		"tall"				"40"
 		"visible" 			"1"
 		"enabled" 			"1"

@@ -12,7 +12,7 @@
 		"ypos"										"cs-0.5"
 		
 		"wide"										"15"
-		"tall"										"o1"
+		"tall"										"15"
 		
 		"image"										"replay\thumbnails\sam\crosshair"
 		"scaleImage"     							"1"
@@ -1450,7 +1450,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-95"
+		"xpos"				"p0.75-s0.5" // center to 0.75% of the screen  //OLD "c-95"
 		"ypos"				"rs1"
 		"wide"				"60"
 		"tall"				"40"
