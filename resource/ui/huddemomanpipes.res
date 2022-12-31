@@ -40,16 +40,37 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
+		
+		"SamBG"
+		{
+			"ControlName"								"EditablePanel"
+			"fieldName"									"SamBG"
+			
+			"xpos"										"c40"
+			"ypos"										"rs1-40"
+			"zpos"										"0"
+			
+			"wide"										"40"
+			"tall"										"14"
+			"proportionaltoparent"						"1"
+			
+			"visible"									"1"
+			"enabled"									"1"
+			
+			"bgcolor_override"							"SamBG"
+			"paintbackgroundtype"						"2"
+		}
 
 		"NumPipesLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabel"
-			"xpos"									"cs-0.5"
-			"ypos"									"r115"
-			"zpos"									"2"
-			"wide"									"30"
-			"tall"									"20"
+			"xpos"										"c40"
+			"ypos"										"rs1-40"
+			"zpos"										"2"
+			
+			"wide"										"40"
+			"tall"										"14"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
@@ -61,18 +82,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabelDropshadow"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"1"
-			"wide"									"31"
-			"tall"									"21"
-			"visible"								"1"
-			"enabled"								"1"
-			"labelText"								"%activepipes%"
-			"textAlignment"							"center"
-			"font"									"HudFontMediumSmallBold"
-			"fgcolor"								"0 0 0 130"
-			"pin_to_sibling"						"NumPipesLabel"
+			"xpos"									"9999"
 		}
 		"PipeIcon"
 		{
